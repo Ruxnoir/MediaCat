@@ -1,4 +1,4 @@
-@props(['title' => 'MediaCat', 'current' => 'pasien', 'panel' => 'pasien', 'decoration' => 'pasien'])
+@props(['title' => 'MediaCat', 'panel' => 'pasien', 'decoration' => 'pasien'])
 
 @php
     // Warna panel berbeda tiap frame di desain Figma.
@@ -35,11 +35,5 @@
                 {{ $slot }}
             </section>
         </main>
-
-        <div class="pointer-events-none fixed inset-x-0 bottom-4 flex justify-center">
-            <div class="pointer-events-auto">
-                <x-auth.role-switch :current="$current" />
-            </div>
-        </div>
     </body>
 </html>

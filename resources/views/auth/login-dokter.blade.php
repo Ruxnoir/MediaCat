@@ -1,4 +1,4 @@
-<x-auth.layout title="Login Dokter — MediaCat" current="dokter" panel="dokter" decoration="staff">
+<x-auth.layout title="Login Dokter — MediaCat" panel="dokter" decoration="staff">
     {{-- Logo --}}
     <div class="z-10 lg:absolute lg:left-[18px] lg:top-[10px]">
         <x-auth.brand class="mx-auto w-[263px] lg:mx-0" />

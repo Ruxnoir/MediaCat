@@ -1,4 +1,4 @@
-<x-auth.layout title="Masuk — MediaCat" current="pasien" panel="pasien" decoration="pasien">
+<x-auth.layout title="Masuk — MediaCat" panel="pasien" decoration="pasien">
     {{-- Logo --}}
     <div class="z-10 lg:absolute lg:left-[18px] lg:top-[10px]">
         <x-auth.brand class="mx-auto w-[263px] lg:mx-0" />
